@@ -10,6 +10,9 @@ name = name.strip()
 name = name.capitalize()
 """
 
+# Split user's name into first name and last name
+first, last = name.split(" ")
+
 # say Hello to user
 
 """"
@@ -20,5 +23,4 @@ print("Hello,", name, end=". ")
 print(name, "is great!", sep = "_")
 
 # using 'f' allows you to insert variables using curly brackets
-print(f"Your name is {name}")
-
+print(f"Your first name is {first}")
