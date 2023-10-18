@@ -13,6 +13,9 @@ b = float(input("What's b? "))
 
 z = a/b
 
+# add comma seperators
 print(f"{z:,}")
+
+# specify number of characters to present
 print(f"{z:.2f}")
 
